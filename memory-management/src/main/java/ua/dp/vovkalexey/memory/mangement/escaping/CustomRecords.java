@@ -1,6 +1,7 @@
 package ua.dp.vovkalexey.memory.mangement.escaping;
 
 import ua.dp.vovkalexey.memory.mangement.utill.Customer;
+import ua.dp.vovkalexey.memory.mangement.utill.CustomerReadOnly;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -28,5 +29,9 @@ public class CustomRecords implements Iterable<Customer> {
 
     public Iterator<Customer> iterator() {
         return this.records.values().iterator();
+    }
+
+    public CustomerReadOnly getCustomerByName(String name) {
+        return this.records.get(name);
     }
 }

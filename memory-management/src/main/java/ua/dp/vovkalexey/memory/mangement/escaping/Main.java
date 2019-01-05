@@ -1,6 +1,7 @@
 package ua.dp.vovkalexey.memory.mangement.escaping;
 
 import ua.dp.vovkalexey.memory.mangement.utill.Customer;
+import ua.dp.vovkalexey.memory.mangement.utill.CustomerReadOnly;
 
 public class Main {
 
@@ -17,5 +18,15 @@ public class Main {
         for(Customer next : records) {
             System.out.println(next);
         }
+
+        CustomerReadOnly john = records.getCustomerByName("John");
+        System.out.println(john.getName());
+//        john.setName("Derek");
+        System.out.println(john.getName());
+
+        for(Customer next : records) {
+            System.out.println(next);
+        }
+
     }
 }
