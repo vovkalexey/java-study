@@ -26,9 +26,8 @@ public class BookCollection {
 		 books.add(new Book(10,"The Count of Monte Christo","Alexandre Dumas",3.99));
 	}
 	
-	//TODO: fix escaping reference
-	public Book findBookByName(String title) {
-		for (Book book : books) {
+	public BookReadOnly findBookByName(String title) {
+		for (BookReadOnly book : books) {
 			if (book.getTitle().equals(title)) {
 				return book;
 			}
