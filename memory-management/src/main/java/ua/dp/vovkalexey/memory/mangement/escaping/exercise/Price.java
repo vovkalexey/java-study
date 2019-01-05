@@ -31,9 +31,8 @@ public class Price {
 		return this.value.toString();
 	}
 	
-	//TODO: Definintely an escaping reference
-	public Map<String,Double> getRates() {
-		return rates;
+	public Double getRates(String currency) {
+		return rates.get(currency);
 	}
 	
 }
