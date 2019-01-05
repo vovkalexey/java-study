@@ -1,10 +1,5 @@
 package ua.dp.vovkalexey.memory.mangement.escaping.exercise;
 
-import java.util.List;
-import java.util.Map;
-import java.util.function.Predicate;
-
-
 public class Main {
 
 	public static void main(String[] args) {
