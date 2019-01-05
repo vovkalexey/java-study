@@ -33,7 +33,6 @@ public class Book implements BookReadOnly {
 		return title + " by " + author;
 	}
 
-	//  TODO: check if Price is immutable
 	@Override
 	public Price getPrice() {
 		return this.price;
