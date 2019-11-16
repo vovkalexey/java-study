@@ -1,8 +1,9 @@
 package ua.dp.vovkalexey.java.Go4.DesignPatterns.Creational.FactoryMethod;
 
-public class JavaDeveloper {
+public class JavaDeveloper implements Developer {
 
-    void writeJavaCode() {
+    public void writeCode() {
         System.out.println("Java developer writes Java code...");
     }
+
 }

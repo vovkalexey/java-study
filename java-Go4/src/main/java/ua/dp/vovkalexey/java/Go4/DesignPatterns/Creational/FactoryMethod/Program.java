@@ -3,10 +3,10 @@ package ua.dp.vovkalexey.java.Go4.DesignPatterns.Creational.FactoryMethod;
 public class Program {
 
     public static void main(String[] args) {
-        JavaDeveloper jDeveloper = new JavaDeveloper();
-        jDeveloper.writeJavaCode();
+        Developer jDeveloper = new JavaDeveloper();
+        jDeveloper.writeCode();
 
-        CppDeveloper cDeveloper = new CppDeveloper();
-        cDeveloper.writeCppCode();
+        Developer cDeveloper = new CppDeveloper();
+        cDeveloper.writeCode();
     }
 }
