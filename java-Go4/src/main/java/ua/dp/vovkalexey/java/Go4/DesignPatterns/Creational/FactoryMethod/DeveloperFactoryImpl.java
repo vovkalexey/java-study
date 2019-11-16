@@ -7,6 +7,8 @@ public class DeveloperFactoryImpl implements DeveloperFactory {
             return new JavaDeveloper();
         } else if (specialty.equalsIgnoreCase("c++")) {
             return new CppDeveloper();
+        } else if (specialty.equalsIgnoreCase("php")) {
+            return new PhpDeveloper();
         } else {
             throw new RuntimeException(specialty + " is unknown specialty");
         }

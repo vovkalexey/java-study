@@ -26,6 +26,15 @@ public class DeveloperFactoryTest {
         Assert.assertTrue(result instanceof CppDeveloper);
     }
 
+    @Test
+    public void testPhpDeveloper() {
+        DeveloperFactory factory = new DeveloperFactoryImpl();
+        Developer result = factory.createDeveloper("php");
+
+        Assert.assertNotNull(result);
+        Assert.assertTrue(result instanceof PhpDeveloper);
+    }
+
     @Rule
     public ExpectedException thrown = ExpectedException.none();
     @Test
