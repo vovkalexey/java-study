@@ -5,8 +5,9 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+import ua.dp.vovkalexey.java.Go4.DesignPatterns.Creational.FactoryMethod.ex1.*;
 
-public class DeveloperFactoryTest {
+public class FactoryMethodEx1Test {
 
     @Test
     public void testJavaDeveloper() {

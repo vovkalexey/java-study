@@ -1,4 +1,6 @@
-package ua.dp.vovkalexey.java.Go4.DesignPatterns.Creational.FactoryMethod;
+package ua.dp.vovkalexey.java.Go4.DesignPatterns.Creational.FactoryMethod.ex1;
+
+import ua.dp.vovkalexey.java.Go4.DesignPatterns.Creational.FactoryMethod.*;
 
 public class DeveloperFactoryImpl implements DeveloperFactory {
 
